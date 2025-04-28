@@ -1,0 +1,178 @@
+div >h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+div >p{
+    color: gray;
+}
+.box1{
+
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+div >button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: justify;
+}
+div > button p i{
+    color: green;
+}
+.box2{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+
+/* container 3 */
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: 20px;
+}
+
+.container3{
+    width: 500px;
+    height: 590px;
+    padding: 20px;
+    background-color: rgba(18, 106, 91, 0.97);
+    border: 5px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.blackmen{
+    width: 700px;
+    height: 590px;
+    z-index: -1;
+    border: 5px;
+    border-radius: 10px;
+}
+i{
+    color:rgba(4, 208, 174, 0.97);
+}
+
+.parent1{
+    display: flex;
+    flex-direction: row;
+    border: 3px solid  white;
+    border-radius: 10px;
+    width: 95%;
+    margin: 20px;
+    /* background-color: rgb(31, 74, 181); */
+}
+
+.child2{
+    padding: 20px;
+    background-color:rgb(15, 15, 255);
+    color: white;
+    opacity: 0.9;
+}
+.child3{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+
+/* Content 5 */
+
+.parent2{
+    display: flex;
+    flex-direction: row;
+}
+div >video{
+    border: 2px ;
+    border-radius:40px ;
+    opacity: 0.8;
+    background-color: rgb(239, 243, 244);
+    padding: 40px;
+    margin: 20px;
+}
+
+/* content 6 :start */
+
+.parent3{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: whitesmoke;
+   border-radius: 20px;
+   margin: 25px;
+   list-style: none;
+   padding: 20px;
+
+
+}
+div >a{
+    text-decoration: none;
+    color: gray;
+
+}
+div >a{
+    display: flex;
+    flex-direction: row;
+    line-height: 35px;
+}
+div >a:hover{
+color: green;
+}
+
+/* ::content 7 start */
+.parent4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 20px;
+    margin: 25px;
+    list-style: none;
+    padding: 20px;
+    height: 600px;
+ 
+ }
+
+ .frist a{
+     display: flex;
+     flex-direction: row;
+     line-height: 22px;
+     font-size: 10px;
+ }
+ 
+ .second a{
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+    font-size: 10px;
+ }
+
+ .third a{
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+    font-size: 10px;
+ }
+
+ .fourth a{
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+    font-size: 10px;
+ }
+
+ div p a i{
+    font-size: 400px;
+ }
